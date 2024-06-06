@@ -104,12 +104,12 @@ o	Temperature: Celsius ↔ Fahrenheit
 o	Wind speed: m/s ↔ mph
 
 ***7. Error Handling***
- Proper Error Handling for Invalid Location or Failed API Requests 
+Proper Error Handling for Invalid Location or Failed API Requests 
 •	Handle scenarios like invalid location input or failed API requests.
 •	Display user-friendly error messages (e.g., “Invalid location. Please try again.”)
 
 ***8. History Tracking***
- Allow Users to View a History of Their Recent Weather Searches with Timestamps
+Allow Users to View a History of Their Recent Weather Searches with Timestamps
 Implementation Steps:
 •	Maintain a history of recent weather search queries with timestamps.
 •	Store timestamps along with location queries
@@ -117,7 +117,7 @@ Implementation Steps:
 •	Display the history to users in a JTextArea or similar component.
 
 ***9. Dynamic Backgrounds***
- Implementation of Dynamic Background Changes Based on the Time of Day
+Implementation of Dynamic Background Changes Based on the Time of Day
 Implementation Steps:
 •	Determine the current time of day.
 •	Change the background image or color based on the time period (morning, afternoon, evening, night).
@@ -150,6 +150,7 @@ o	Maintain and display a list of recent searches with timestamps.
 ***9.	Dynamic Backgrounds:***
 o	Change the application's background based on the time of day.
 ________________________________________
+
 **REFERENCES**
 **1.	OpenWeatherMap API Documentation:**
 o	OpenWeatherMap API
