@@ -61,18 +61,12 @@ Implementation Steps:
 •Components:
     
     o JFrame as the main window
-    
     o JPanel for organizing components
-    
     o JTextField for user location input
-    
     o JLabel for displaying weather information
-    
     o JComboBox for unit selection.
-    
     o JTextArea for search history.
-    
-    oJButton to trigger weather data fetch
+    o JButton to trigger weather data fetch
 
 •	Use layout managers (e.g., FlowLayout, BorderLayout)
 
@@ -85,9 +79,7 @@ Implementation Steps:
 •	Components:
 
     o Use a JTextField for the location input.
-    
     o Labels to display weather information
-    
     o Buttons for actions (e.g., fetch weather)
 
 •	Organize components using layouts (e.g., VBox, HBox).
@@ -149,7 +141,6 @@ Implementation Steps:
 •	Provide an option for users to switch between different units:
 
     o Temperature: Celsius ↔ Fahrenheit
-    
     o Wind speed: m/s ↔ mph
 
 ***7. Error Handling***
@@ -189,7 +180,7 @@ Implementation Steps:
        o Morning: Bright background (e.g., blue sky)
        o Afternoon (e.g. sky with partial cloud)
        o Evening: Sunset or twilight background
-      o Night: Dark background
+       o Night: Dark background
 
 •	Use JPanel background color or set an image as the background.
 
@@ -197,55 +188,51 @@ ________________________________________
 **Summary of Steps for Full Implementation**
   
   ***1.	API Integration:***
-
-o	Get API key and integrate with OpenWeatherMap API.
-
-o	Fetch weather data and parse JSON responses.
+          
+          o	Get API key and integrate with OpenWeatherMap API.
+          o Fetch weather data and parse JSON responses.
   
   ***2. GUI Design:***
-
-o	Create the main frame and layout with Java Swing.
-
-o	Include components for user input and displaying weather data.
+          
+          o	Create the main frame and layout with Java Swing.
+          o	Include components for user input and displaying weather data.
   
   ***3. Displaying Weather Information:***
-
-o	Extract and display temperature, humidity, wind speed, and weather conditions.
+          
+          o	Extract and display temperature, humidity, wind speed, and weather conditions.
   
   ***4.	Icon Representation:***
-
-o	Map weather conditions to icons and display them appropriately.
+  
+          o	Map weather conditions to icons and display them appropriately.
   
   ***5.	Forecast Display:***
 
-o	Fetch and display short-term forecasts.
+          o	Fetch and display short-term forecasts.
   
   ***6.	Unit Conversion:***
 
-o	Implement unit conversion for temperature and wind speed.
+          o	Implement unit conversion for temperature and wind speed.
   
   ***7.	Error Handling:***
 
-o	Handle invalid inputs and failed API requests gracefully.
+          o	Handle invalid inputs and failed API requests gracefully.
   
   ***8.	History Tracking:***
 
-o	Maintain and display a list of recent searches with timestamps.
+          o	Maintain and display a list of recent searches with timestamps.
   
   ***9.	Dynamic Backgrounds:***
 
-o	Change the application's background based on the time of day.
+          o	Change the application's background based on the time of day.
 ________________________________________
 
 **REFERENCES**
 
 **1.	OpenWeatherMap API Documentation:**
 
-o	OpenWeatherMap API
-
-o	Current Weather Data API
-
-o	Forecast 5 days/3 hours API
+     o	OpenWeatherMap API
+     o	Current Weather Data API
+     o	Forecast 5 days/3 hours API
 
 •	OpenWeatherMap. (n.d.). Current weather data. Retrieved from https://openweathermap.org/current
 
@@ -253,13 +240,10 @@ o	Forecast 5 days/3 hours API
 
 **2.	Java Swing Documentation:**
 
-o	Java Swing Tutorial
-
-o	JTextField Class
-
-o	JButton Class
-
-o	JLabel Class
+    o	Java Swing Tutorial
+    o	JTextField Class
+    o	JButton Class
+    o	JLabel Class
 
 •	Oracle. (n.d.). Java Swing tutorial. Retrieved from https://docs.oracle.com/javase/tutorial/uiswing/
 
@@ -271,11 +255,9 @@ o	JLabel Class
 
 **3.	Java Networking and JSON Parsing:**
 
-o	HttpURLConnection
-
-o	JSON in Java (org.json)
-
-o	Using Java HttpClient
+    o	HttpURLConnection
+    o	JSON in Java (org.json)
+    o	Using Java HttpClient
 
 •	Oracle. (n.d.). HttpURLConnection (Java Platform SE 8). Retrieved from https://docs.oracle.com/javase/8/docs/api/java/net/HttpURLConnection.html
 
